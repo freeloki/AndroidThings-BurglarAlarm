@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="CLR_BLUE">#00f</color>
+    <color name="CLR_RED">#f00</color>
+    <color name="CLR_GREEN">#0f0</color>
+    <color name="CLR_YELLOW">#ff0</color>
+    <color name="CLR_BLUE_DARK">#00a</color>
+    <color name="CLR_RED_DARK">#a00</color>
+    <color name="CLR_GREEN_DARK">#0a0</color>
+    <color name="CLR_YELLOW_DARK">#aa0</color>
+</resources>

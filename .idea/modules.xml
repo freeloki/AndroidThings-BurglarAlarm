@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidThings-BurglarAlarm.iml" filepath="$PROJECT_DIR$/AndroidThings-BurglarAlarm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coreApp/coreApp.iml" filepath="$PROJECT_DIR$/coreApp/coreApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileApp/mobileApp.iml" filepath="$PROJECT_DIR$/mobileApp/mobileApp.iml" />
     </modules>
   </component>
 </project>

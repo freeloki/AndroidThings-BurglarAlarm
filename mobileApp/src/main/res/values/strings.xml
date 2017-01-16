@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Burglar</string>
+    <string name="user_name">Username</string>
+    <string name="password">Pass</string>
+    <string name="access_token">AccessToken</string>
+    <string name="device">Device</string>
+    <string name="sensor_data">SensorData</string>
+    <string name="lock">Lock</string>
+    <string name="unlock">Unlock</string>
+    <string name="websocket_token">websocket_token</string>
+    <string name="websocket_url">websocket_url</string>
+    <string name="subscribe_id">subscribe_id</string>
+    <string name="websocket_token_expire">websocket_token_expire</string>
+    <string name="nodeId">VirtualDemoNode</string>
+    <string name="sensorId">Lamp</string>
+    <string name="subscribe_version">2.0</string>
+    <string name="subscribe_type">subscribe</string>
+</resources>
