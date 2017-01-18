@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ardic.android.smartburglaralarm">
 
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/burglar_icon"
@@ -22,6 +25,12 @@
             android:name=".service.BurglarAlarmService"
             android:enabled="true"
             android:exported="false"></service>
+        <receiver android:name=".receivers.BurglarAlarmAutoStartRecevier"
+            android:enabled="true">
+            <intent-filter android:priority="500">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

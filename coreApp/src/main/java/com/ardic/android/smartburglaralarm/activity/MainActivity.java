@@ -8,7 +8,6 @@ import android.widget.Switch;
 import com.ardic.android.smartburglaralarm.R;
 import com.ardic.android.smartburglaralarm.handlers.EventHandler;
 import com.ardic.android.smartburglaralarm.handlers.GpioHandler;
-import com.ardic.android.smartburglaralarm.service.ContextHolder;
 
 import org.greenrobot.eventbus.EventBus;
 

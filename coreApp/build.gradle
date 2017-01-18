@@ -19,6 +19,13 @@ android {
     }
 }
 
+repositories {
+
+    maven{
+        url "https://repo.iot-ignite.com/content/repositories/releases"
+    }
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -28,4 +35,6 @@ dependencies {
     provided 'com.google.android.things:androidthings:0.1-devpreview'
     compile 'com.google.android.things.contrib:driver-button:0.1'
     compile 'org.greenrobot:eventbus:3.0.0'
+    // IoT-Ignite SDK dependency
+    compile 'com.ardic.android:IoTIgnite:0.7'
 }

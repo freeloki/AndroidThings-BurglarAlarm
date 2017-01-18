@@ -4,7 +4,6 @@ import android.content.Context;
 import android.util.Log;
 
 import com.ardic.android.smartburglaralarm.constant.BurglarAlarmConstants;
-import com.ardic.android.smartburglaralarm.service.ContextHolder;
 import com.google.android.things.contrib.driver.button.Button;
 import com.google.android.things.pio.Gpio;
 import com.google.android.things.pio.PeripheralManagerService;
